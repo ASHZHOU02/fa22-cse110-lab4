@@ -1,7 +1,6 @@
-function time(){
-    console.log(1);
-    setTimeout(function() {console.log(2);}, 1000);
-    setTimeout(function() {console.log(3);}, 0);
-    console.log(4);
+function timeCall(){
+    let d = new Date();
+    let time = d.toLocaleTimeString();
+    console.log(time);
 }
-console.log(time());
+setInterval(timeCall, 1000);
