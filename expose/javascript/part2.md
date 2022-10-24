@@ -22,5 +22,7 @@
     * false, since true is converted to 1 in numeric conversion
     * true, since Boolean(2) return boolean true, which is the same data with LHS.
 15. == is non-strict check, which allows conversion between different type data in comparison, while === is strict check, which does not allow conversion.
+16. See js code.
 17. Function return an array [2, 4, 6]. Since function also is a type of variable, when doSomething function pass in, it gets initialized and executed inside the for loop, which double the input array values.
+18. See js code.
 19. Print 1 4 undefined 3 2 accordingly.
